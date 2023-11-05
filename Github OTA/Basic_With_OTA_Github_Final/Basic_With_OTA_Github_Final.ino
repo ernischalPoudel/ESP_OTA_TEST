@@ -10,11 +10,11 @@ int status = WL_IDLE_STATUS;
 int incomingByte;
 
 String FirmwareVer = {
-    "1.0"
+    "3.0"
 };
 
-#define URL_fw_Version "https://raw.githubusercontent.com/ernischalPoudel/ESP_OTA_TEST/main/firmware_ver.txt"// "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/ernischalPoudel/ESP_OTA_TEST/main/firmware.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/ernischalPoudel/ESP_OTA_TEST/main/Github%20OTA/Basic_With_OTA_Github_Final/build/esp32.esp32.esp32s3/firmware.txt"// "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/bin-version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/ernischalPoudel/ESP_OTA_TEST/main/Github%20OTA/Basic_With_OTA_Github_Final/build/esp32.esp32.esp32s3/Basic_With_OTA_Github_Final.ino.bin"
 
 void setup() {
 
